@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 98%;
+    background-color: rgb(168, 215, 217);
+}
+#title{
+    font-size: 40px;
+    color: rgb(36, 123, 138);
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+
+}
+#container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#panel{
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#top{
+    width: 100%;
+    height: 12%;
+    padding: 0 30%;
+    background-color: rgb(72, 194, 188);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.data{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    padding: 10px 12px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(36, 123, 138);
+    font-weight: 700;
+}
+
+#bottom{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 50%;
+    font-weight: 600;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(36, 101, 98);
+}
+
+#gameOver{
+    background-color: rgb(124, 192, 183);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+#gameOver h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(250, 5, 5);
+}
+
+@media screen and (max-width: 600px) {
+    #container{
+        flex-direction: column;
+        height: 93%;
+    }
+    #panel{
+        width: 91.5%;
+    }
+    #top{
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .data{
+        gap: 5px;
+    }
+    .box{
+        padding: 9px 11px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 5px;
+        text-align: center;
+        font-size: 18px;
+        color: rgb(21, 78, 116);
+        font-weight: 700;
+    }
+    .box h2{
+        font-size: 18px;
+    }
+    #bottom{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 5px 10px;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+}
