@@ -1,2 +1,2 @@
 # bubble_game
-netlify link : https://64f66f5b3e381333a7118260--ephemeral-jalebi-205029.netlify.app/
+netlify link : https://64f677b775fc4f383c2d6cc3--helpful-medovik-d8d5e8.netlify.app/
